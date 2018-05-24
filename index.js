@@ -18,14 +18,14 @@ function theBeatlesPlay(musicians, instruments) {
 console.log(theBeatlesPlay());
 
 /*============================ */
-function johnLennonFacts(facts) {
+function johnLennonFacts(array) {
   
   const newArray = [];
-  let x = facts.length;
+  let x = array.length;
   let n = 0;
   
   while ( n < x) {
-  newArray.push(`${facts[n]}!!!`);
+  newArray.push(`${array[n]}!!!`);
    n++;
   
   }
